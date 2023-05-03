@@ -1,0 +1,30 @@
+@font-face {
+    font-family: gotham;
+    src: url("../font/Gotham Book.otf");
+}
+
+@font-face {
+    font-family: gotham1;
+    src: url("../font/GothamMedium_1.ttf");
+}
+
+#container {
+    position: relative;
+    width: 20vw;
+    border: 0.2vw solid grey;
+    border-radius: 1vw;
+    background-color: #CEA2FD;
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    margin: 0 auto;
+    top: 10vw;
+}
+
+.submit {
+    padding-top: 1vw;
+}
+
+.input input{
+    width: 17vw;
+}

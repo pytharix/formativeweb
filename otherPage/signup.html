@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/fileUpload.css">
+    <title>Sign up</title>
+</head>
+<body>
+<form method="post" action="signupState.php">
+    <main id="container">
+        <div class="username">
+            <h2>Sign Up, <br>Create Your Account</h2>
+            <div class="text">
+                <label for="username"><h3>Username</h3></label>
+            </div>
+            <div class="input">
+                <input type="text" id="username" name="usrname">
+            </div>
+        </div>
+        <div class="password">
+            <div class="text">
+                <label for="password"><h3>Password</h3></label>
+            </div>
+            <div class="input">
+                <input type="password" id="password" name="pswusr">
+            </div>
+        </div>
+
+        <div class="submit">
+            <label for="login"></label>
+            <input type="submit" id="login" name="login" value="Sign up">
+        </div>
+        <div class="cancel">
+            <label for="cancel"></label>
+            <input type="button" id="cancel" value="Cancel" onclick="backs()">
+        </div>
+    </main>
+</form>
+<script>
+    function backs(){
+        window.location.href="../mainPage.php"
+    }
+</script>
+</body>
+</html>
